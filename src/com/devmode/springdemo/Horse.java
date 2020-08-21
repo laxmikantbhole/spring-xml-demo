@@ -7,6 +7,14 @@ public class Horse implements Animal {
 		return "48 km/h";
 	}
 
+	
+	public void init() {
+		System.out.println("In init method");
+	}
+	
+	public void destroy() {
+		System.out.println("In destroy method");
+	}
 }
 
 

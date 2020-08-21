@@ -13,7 +13,9 @@
     <!-- define the dependency -->
     
  	<bean id="myHorse"
- 		class="com.devmode.springdemo.Horse">	 		
+ 		class="com.devmode.springdemo.Horse"
+ 		init-method="init"
+ 		destroy-method="destroy">	 		
  	</bean>
 
     
